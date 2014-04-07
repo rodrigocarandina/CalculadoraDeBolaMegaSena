@@ -19,15 +19,32 @@
 	    android:layout_below="@+id/enter_amount_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:maxLength="10"
         android:hint="@string/amount_raised_message" 
         android:inputType="numberDecimal"/>
-        
-	<Button
+      
+	<TextView
+        android:id="@+id/intro_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-	    android:layout_below="@+id/enter_amount_message"
-        android:layout_toRightOf="@+id/amount_raised_message"
-        android:text="@string/button_calculate" 
-        android:onClick="sendMessage" />	
+        android:layout_below="@+id/amount_raised_message"
+        android:text="@string/intro_message" />
+    
+	<TextView
+        android:id="@+id/list_bets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/intro_message"
+        android:singleLine="false"/>
+	
+	<Button
+        android:id="@+id/button_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+ 		android:layout_alignParentRight="true"
+ 		android:layout_below="@+id/list_bets"
+        android:onClick="generateNumbers"
+        android:visibility="invisible"
+        android:text="@string/button_generate" />
 		
 </RelativeLayout>

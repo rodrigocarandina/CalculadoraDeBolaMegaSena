@@ -10,53 +10,38 @@
     tools:context=".DisplayMessageActivity" >
 
     <TextView
-        android:id="@+id/intro_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/intro_message" />
-    
-	<TextView
-        android:id="@+id/list_bets"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" 
-        android:layout_below="@+id/intro_message"
-        android:singleLine="false"/>
-
-    <Button
-        android:id="@+id/button_generate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/list_bets"
-        android:layout_alignParentRight="true"
-        android:onClick="generateNumbers"
-        android:text="@string/button_generate" />
-    
-    <TextView
         android:id="@+id/list_selectedNumbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
-        android:layout_below="@+id/button_generate"
-        android:maxLines="8" 
+        android:maxLines="15" 
         android:scrollbars="vertical"
         android:fadeScrollbars="false"
         android:scrollbarAlwaysDrawVerticalTrack="true"
         android:singleLine="false"/>
 
+	<Button
+        android:id="@+id/button_regenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_selectedNumbers"        
+ 		android:layout_alignParentRight="true"
+        android:onClick="regenerateNumbers"
+        android:text="@string/button_regenerate" />
+    
     <EditText android:id="@+id/email_address"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
-			android:layout_below="@+id/list_selectedNumbers"
+			android:layout_below="@+id/button_regenerate"
 	        android:layout_alignParentLeft="true"
 	        android:layout_toLeftOf="@+id/button_email"
-	        android:visibility="invisible"
 	        android:inputType="textEmailAddress"/>
+    
 	<Button
         android:id="@+id/button_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/list_selectedNumbers"
+        android:layout_below="@+id/button_regenerate"
         android:layout_alignParentRight="true"
-        android:visibility="invisible"
         android:onClick="sendEmail"
         android:text="@string/button_email" />
     

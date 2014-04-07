@@ -9,8 +9,10 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_display_message">Apostas possíveis</string>
     <string name="intro_message">Você pode fazer as seguintes apostas: </string>
-    <string name="bets_message">\n %1$d apostas de %2$d números.</string>
+    <string name="bets_message">%1$d apostas de %2$d números.\n</string>
+    <string name="bet_change">Troco de %1$.2f.\n</string>
 	<string name="button_generate">Gerar números</string>
+	<string name="button_regenerate">Gerar novos números</string>
 	<string name="button_email">Enviar por email</string>
 	<string name="email_subject">Palpites para loteria</string>
 </resources>

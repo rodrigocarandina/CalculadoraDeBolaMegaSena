@@ -221,18 +221,19 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f02001c;
     }
     public static final class id {
-        public static final int action_settings=0x7f06000f;
-        public static final int amount_raised_message=0x7f06000e;
-        public static final int button_email=0x7f06000b;
-        public static final int button_generate=0x7f060008;
-        public static final int email_address=0x7f06000a;
-        public static final int enter_amount_message=0x7f06000d;
+        public static final int action_settings=0x7f060010;
+        public static final int amount_raised_message=0x7f06000c;
+        public static final int button_email=0x7f060009;
+        public static final int button_generate=0x7f06000f;
+        public static final int button_regenerate=0x7f060007;
+        public static final int email_address=0x7f060008;
+        public static final int enter_amount_message=0x7f06000b;
         public static final int hybrid=0x7f060004;
-        public static final int intro_message=0x7f060006;
+        public static final int intro_message=0x7f06000d;
         public static final int layout_display=0x7f060005;
-        public static final int list_bets=0x7f060007;
-        public static final int list_selectedNumbers=0x7f060009;
-        public static final int main_layout=0x7f06000c;
+        public static final int list_bets=0x7f06000e;
+        public static final int list_selectedNumbers=0x7f060006;
+        public static final int main_layout=0x7f06000a;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
         public static final int satellite=0x7f060002;
@@ -276,10 +277,12 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f070014;
+        public static final int bet_change=0x7f070023;
         public static final int bets_message=0x7f070022;
         public static final int button_calculate=0x7f07001e;
-        public static final int button_email=0x7f070024;
-        public static final int button_generate=0x7f070023;
+        public static final int button_email=0x7f070026;
+        public static final int button_generate=0x7f070024;
+        public static final int button_regenerate=0x7f070025;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -351,7 +354,7 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f070013;
-        public static final int email_subject=0x7f070025;
+        public static final int email_subject=0x7f070027;
         public static final int enter_amount_message=0x7f07001c;
         public static final int intro_message=0x7f070021;
         public static final int title_activity_display_message=0x7f070020;
