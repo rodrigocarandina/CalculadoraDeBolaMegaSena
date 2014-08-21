@@ -3,15 +3,15 @@
     <lowestNumberToBeDraw value="1"/>
     <highestNumberToBeDraw value="60"/>
     <bets>
-        <bet numbers="6" value="2"/>
-        <bet numbers="7" value="14"/>
-		<bet numbers="8" value="56"/>
-		<bet numbers="9" value="168"/>
-        <bet numbers="10" value="420"/>
-        <bet numbers="11" value="924"/>
-		<bet numbers="12" value="1848"/>
-		<bet numbers="13" value="3432"/>
-		<bet numbers="14" value="6006"/>
-		<bet numbers="15" value="10010"/>
+        <bet numbers="6" value="2.5"/>
+        <bet numbers="7" value="17.5"/>
+		<bet numbers="8" value="70"/>
+		<bet numbers="9" value="210"/>
+        <bet numbers="10" value="525"/>
+        <bet numbers="11" value="1155"/>
+		<bet numbers="12" value="2310"/>
+		<bet numbers="13" value="4290"/>
+		<bet numbers="14" value="7507.5"/>
+		<bet numbers="15" value="12512.5"/>
 	</bets>
 </lottery>

@@ -31,8 +31,8 @@ public class MainActivity extends Activity {
 
 	public static final String CALCULATED_BETS = "Bets";
 
-	private static final int MINIMUM_BET = 2;
-	private static final int MAX_AMOUNT_OF_BET = 1000000;
+	private static final double MINIMUM_BET = 2.5;
+	private static final double MAX_AMOUNT_OF_BET = 1000000;
 	private AdView adView;
 	private static final String AD_UNIT_ID = "ca-app-pub-6793881900708870/2342031947";
 	private TreeMap<Integer, Integer> bets;
@@ -152,7 +152,7 @@ public class MainActivity extends Activity {
 
 		}
 
-		return true;
+		return super.onKeyUp(keyCode, event);
 	}
 
 
@@ -186,5 +186,4 @@ public class MainActivity extends Activity {
 		intent.putExtra(CALCULATED_BETS, bets);
 		startActivity(intent);
 	}
-
 }

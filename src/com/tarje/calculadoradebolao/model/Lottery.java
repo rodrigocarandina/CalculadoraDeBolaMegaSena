@@ -121,16 +121,16 @@ public class Lottery{
 			}
 			xpp.close();
 		}catch(Exception exception){
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(6), Double.valueOf(2)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(7), Double.valueOf(14)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(8), Double.valueOf(56)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(9), Double.valueOf(168)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(10), Double.valueOf(420)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(11), Double.valueOf(924)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(12), Double.valueOf(1848)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(13), Double.valueOf(3432)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(14), Double.valueOf(6006)));
-			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(15), Double.valueOf(10010)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(6), Double.valueOf(2.5)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(7), Double.valueOf(17.5)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(8), Double.valueOf(70)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(9), Double.valueOf(210)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(10), Double.valueOf(525)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(11), Double.valueOf(1155)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(12), Double.valueOf(2310)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(13), Double.valueOf(4290)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(14), Double.valueOf(7507.5)));
+			lottery.addLotteryBet(new LotteryBet(Integer.valueOf(15), Double.valueOf(12512.5)));
 		}
 		
 		return lottery;

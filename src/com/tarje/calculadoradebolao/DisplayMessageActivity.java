@@ -127,5 +127,5 @@ public class DisplayMessageActivity extends Activity {
 		intent.setData(Uri.parse("mailto:"+ emailAddress));
 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(intent);
-	}
+	}	
 }
